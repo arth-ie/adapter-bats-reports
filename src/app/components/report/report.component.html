@@ -1,0 +1,49 @@
+<p>Test Reports</p>
+<table class="switch-table">
+  <tr>
+    <th><button (click)="switchReport(1)" class="typebtn" [class.activebtn]="testFlag==1">File Type 1</button></th>
+    <th><button (click)="switchReport(2)" class="typebtn" [class.activebtn]="testFlag==2">File Type 2</button></th>
+    <th><button (click)="switchReport(3)" class="typebtn" [class.activebtn]="testFlag==3">File Type 3</button></th>
+    <th><button (click)="switchReport(4)" class="typebtn" [class.activebtn]="testFlag==4">File Type 4</button></th>
+  </tr>
+</table>
+<table class="summary-table">
+  <tr>
+    <th colspan="3"><h3>Report of File Type {{testFlag}}</h3></th>
+  </tr>
+  <tr>
+    <th *ngIf="testData" class="success-t">Total tests : {{testData.stats.asserts}}</th>
+    <th *ngIf="testData" class="success-t">Positive tests : {{testData.stats.passes}}</th>
+    <th *ngIf="testData" class="failed-t">Negative tests : {{testData.stats.failures}}</th>
+  </tr>
+</table>
+<!-- <h3 *ngIf="testData">Total tests :: {{testData.stats.asserts}}</h3>
+<h3 *ngIf="testData">Passed tests :: {{testData.stats.passes}}</h3>
+<h3 *ngIf="testData">Failed tests :: {{testData.stats.failures}}</h3> -->
+
+<table class="test-table">
+  <tr>
+    <th class="number-head">No.</th>
+    <th class="name-head">Name</th>
+    <th class="status-head">Status</th>
+  </tr>
+  <tr *ngFor="let item of testData.asserts">
+    <td>{{item.number}}</td>
+    <td>{{item.name}}</td>
+    <td *ngIf="item.ok&&!item.name.includes('skip')" class="success">Success</td>
+    <td *ngIf="!item.ok" class="failure">Failure</td>
+    <td *ngIf="item.ok&&item.name.includes('skip')" class="skip">Skip</td>
+  </tr>
+</table>
+<!-- <h3>Successful tests</h3>
+<ul *ngIf="testData.asserts">
+  <div *ngFor="let item of testData.asserts"><li *ngIf="item.ok&&!item.name.includes('skip')">{{item.name}}</li></div>
+</ul>
+<h3>Failed tests</h3>
+<ul *ngIf="testData.asserts">
+  <div *ngFor="let item of testData.asserts"><li *ngIf="!item.ok">{{item.name}}</li></div>
+</ul>
+<h3>Skipped tests</h3>
+<ul *ngIf="testData.asserts">
+  <div *ngFor="let item of testData.asserts"><li *ngIf="item.ok&&item.name.includes('skip')">{{item.name}}</li></div>
+</ul> -->

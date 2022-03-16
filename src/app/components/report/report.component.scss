@@ -1,0 +1,63 @@
+.switch-table{
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+.typebtn{
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #aaaaaa;
+  border: 0;
+  border-radius: 5px;
+}
+
+.activebtn{
+  background-color: #000080;
+  color: white;
+}
+
+.summary-table{
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  margin-bottom: 30px;
+}
+.test-table{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.number-head{
+  width: 20%;
+}
+
+.name-head{
+  width: 60%;
+}
+
+.status-head{
+  width: 20%;
+}
+
+.test-table td{
+  box-sizing: border-box;
+  padding: 5px;
+  border: 1px solid black;
+  // text-align: center;
+}
+
+.success{
+  background-color: #00cc00;
+}
+
+.failure{
+  background-color: #dc0b0b;
+}
+
+.skip{
+  background-color: #d1a41b;
+}
