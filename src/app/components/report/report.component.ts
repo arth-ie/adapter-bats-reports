@@ -12,6 +12,11 @@ export class ReportComponent implements OnInit {
   test2Data:any;
   test3Data:any;
   test4Data:any;
+  test5Data:any;
+  test6Data:any;
+  test7Data:any;
+  test8Data:any;
+  test9Data:any;
   testFlag=1;
   constructor(
     private http: HttpClient
@@ -32,6 +37,26 @@ export class ReportComponent implements OnInit {
     this.http.get('assets/test_tap/filetype4.json').subscribe((res) => {
       this.test4Data = res;
       console.log('--- result :: ',  this.test4Data);
+    });
+    this.http.get('assets/test_tap/sudo.json').subscribe((res) => {
+      this.test5Data = res;
+      console.log('--- result :: ',  this.test5Data);
+    });
+    this.http.get('assets/test_tap/datedfile.json').subscribe((res) => {
+      this.test6Data = res;
+      console.log('--- result :: ',  this.test6Data);
+    });
+    this.http.get('assets/test_tap/multiple.json').subscribe((res) => {
+      this.test7Data = res;
+      console.log('--- result :: ',  this.test7Data);
+    });
+    this.http.get('assets/test_tap/destfiletype.json').subscribe((res) => {
+      this.test8Data = res;
+      console.log('--- result :: ',  this.test8Data);
+    });
+    this.http.get('assets/test_tap/heartbeat.json').subscribe((res) => {
+      this.test9Data = res;
+      console.log('--- result :: ',  this.test9Data);
     });
   }
 

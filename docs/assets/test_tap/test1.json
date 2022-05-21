@@ -1,0 +1,740 @@
+{
+  "tests": [],
+  "asserts": [
+    {
+      "type": "assert",
+      "raw": "ok 1 1.Reading the config",
+      "ok": true,
+      "number": 1,
+      "name": "1.Reading the config",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 2 2.Connecting to Solace Broker",
+      "ok": true,
+      "number": 2,
+      "name": "2.Connecting to Solace Broker",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 3 3.Checking EOD Thread",
+      "ok": true,
+      "number": 3,
+      "name": "3.Checking EOD Thread",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 4 4.Provision LVQ Endpoint",
+      "ok": true,
+      "number": 4,
+      "name": "4.Provision LVQ Endpoint",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 5 5.Trust Store Error",
+      "ok": true,
+      "number": 5,
+      "name": "5.Trust Store Error",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 6 6.Checking for state in LVQ",
+      "ok": true,
+      "number": 6,
+      "name": "6.Checking for state in LVQ",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 7 7.Log file opened Succesfully",
+      "ok": true,
+      "number": 7,
+      "name": "7.Log file opened Succesfully",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 8 8.Acks checks at start or complete run id",
+      "ok": true,
+      "number": 8,
+      "name": "8.Acks checks at start or complete run id",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 9 9.Freeing of memory while cleaning up client",
+      "ok": true,
+      "number": 9,
+      "name": "9.Freeing of memory while cleaning up client",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 10 10.Reading owner data",
+      "ok": true,
+      "number": 10,
+      "name": "10.Reading owner data",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 11 11.Unique File id generation",
+      "ok": true,
+      "number": 11,
+      "name": "11.Unique File id generation",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 12 12.Any file start processing",
+      "ok": true,
+      "number": 12,
+      "name": "12.Any file start processing",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 13 13.Opening and Reading file",
+      "ok": true,
+      "number": 13,
+      "name": "13.Opening and Reading file",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 14 14.Any Message Sent",
+      "ok": true,
+      "number": 14,
+      "name": "14.Any Message Sent",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 15 15.Any files are transfered",
+      "ok": true,
+      "number": 15,
+      "name": "15.Any files are transfered",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 16 16.Start or complete in LVQ",
+      "ok": true,
+      "number": 16,
+      "name": "16.Start or complete in LVQ",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 17 17.Publishing error",
+      "ok": true,
+      "number": 17,
+      "name": "17.Publishing error",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 18 18.Error Keyword",
+      "ok": true,
+      "number": 18,
+      "name": "18.Error Keyword",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 19 19.Inside Static Block",
+      "ok": true,
+      "number": 19,
+      "name": "19.Inside Static Block",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 20 # skip (Only for Dynamic files [Type 2]) 20.Inside Dynamic block",
+      "ok": true,
+      "number": 20,
+      "name": "# skip (Only for Dynamic files [Type 2]) 20.Inside Dynamic block",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 21 # skip (Only for Directories [Type 3 & 4]) 21.Inside Directory block",
+      "ok": true,
+      "number": 21,
+      "name": "# skip (Only for Directories [Type 3 & 4]) 21.Inside Directory block",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 22 # skip (Only for Directories [Type 3 & 4]) 22.Directory name not found",
+      "ok": true,
+      "number": 22,
+      "name": "# skip (Only for Directories [Type 3 & 4]) 22.Directory name not found",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 23 23.Clearing LVQ State",
+      "ok": true,
+      "number": 23,
+      "name": "23.Clearing LVQ State",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 24 24.Queue is full",
+      "ok": true,
+      "number": 24,
+      "name": "24.Queue is full",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 25 25.Source Path Error",
+      "ok": true,
+      "number": 25,
+      "name": "25.Source Path Error",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 26 # skip (Only for Dynamic Files) 26.EOD Test",
+      "ok": true,
+      "number": 26,
+      "name": "# skip (Only for Dynamic Files) 26.EOD Test",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 27 # skip (Only for Dynamic Files) 27.Cleaning Memory",
+      "ok": true,
+      "number": 27,
+      "name": "# skip (Only for Dynamic Files) 27.Cleaning Memory",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 28 28.UID or GID errors",
+      "ok": true,
+      "number": 28,
+      "name": "28.UID or GID errors",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 29 29.Send warning on missing file",
+      "ok": true,
+      "number": 29,
+      "name": "29.Send warning on missing file",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 30 30.Application ID Generation",
+      "ok": true,
+      "number": 30,
+      "name": "30.Application ID Generation",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 31 31.Reading Config Assembler",
+      "ok": true,
+      "number": 31,
+      "name": "31.Reading Config Assembler",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 32 32.Solace client Connection",
+      "ok": true,
+      "number": 32,
+      "name": "32.Solace client Connection",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 33 33.Queue Subscriber",
+      "ok": true,
+      "number": 33,
+      "name": "33.Queue Subscriber",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 34 34.Trust store error Assembler",
+      "ok": true,
+      "number": 34,
+      "name": "34.Trust store error Assembler",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 35 35.Checking process username",
+      "ok": true,
+      "number": 35,
+      "name": "35.Checking process username",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 36 36.Any acknowledgment of message",
+      "ok": true,
+      "number": 36,
+      "name": "36.Any acknowledgment of message",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 37 37.Auto Creation of Directory",
+      "ok": true,
+      "number": 37,
+      "name": "37.Auto Creation of Directory",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 38 38.Opening File to Write",
+      "ok": true,
+      "number": 38,
+      "name": "38.Opening File to Write",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 39 39.Chown without error",
+      "ok": true,
+      "number": 39,
+      "name": "39.Chown without error",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 40 40.Replicated file same size",
+      "ok": true,
+      "number": 40,
+      "name": "40.Replicated file same size",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 41 41.Number of messages",
+      "ok": true,
+      "number": 41,
+      "name": "41.Number of messages",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 42 42.Checking Sudo access",
+      "ok": true,
+      "number": 42,
+      "name": "42.Checking Sudo access",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 43 43.Total file count and file size",
+      "ok": true,
+      "number": 43,
+      "name": "43.Total file count and file size",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 44 44.Number of messages chunks",
+      "ok": true,
+      "number": 44,
+      "name": "44.Number of messages chunks",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 45 45.Assembler out of disk space",
+      "ok": true,
+      "number": 45,
+      "name": "45.Assembler out of disk space",
+      "test": 0
+    }
+  ],
+  "versions": [],
+  "results": [],
+  "comments": [],
+  "plans": [
+    {
+      "type": "plan",
+      "raw": "1..45",
+      "from": 1,
+      "to": 45
+    }
+  ],
+  "pass": [
+    {
+      "type": "assert",
+      "raw": "ok 1 1.Reading the config",
+      "ok": true,
+      "number": 1,
+      "name": "1.Reading the config",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 2 2.Connecting to Solace Broker",
+      "ok": true,
+      "number": 2,
+      "name": "2.Connecting to Solace Broker",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 3 3.Checking EOD Thread",
+      "ok": true,
+      "number": 3,
+      "name": "3.Checking EOD Thread",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 4 4.Provision LVQ Endpoint",
+      "ok": true,
+      "number": 4,
+      "name": "4.Provision LVQ Endpoint",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 5 5.Trust Store Error",
+      "ok": true,
+      "number": 5,
+      "name": "5.Trust Store Error",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 6 6.Checking for state in LVQ",
+      "ok": true,
+      "number": 6,
+      "name": "6.Checking for state in LVQ",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 7 7.Log file opened Succesfully",
+      "ok": true,
+      "number": 7,
+      "name": "7.Log file opened Succesfully",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 8 8.Acks checks at start or complete run id",
+      "ok": true,
+      "number": 8,
+      "name": "8.Acks checks at start or complete run id",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 9 9.Freeing of memory while cleaning up client",
+      "ok": true,
+      "number": 9,
+      "name": "9.Freeing of memory while cleaning up client",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 10 10.Reading owner data",
+      "ok": true,
+      "number": 10,
+      "name": "10.Reading owner data",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 11 11.Unique File id generation",
+      "ok": true,
+      "number": 11,
+      "name": "11.Unique File id generation",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 12 12.Any file start processing",
+      "ok": true,
+      "number": 12,
+      "name": "12.Any file start processing",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 13 13.Opening and Reading file",
+      "ok": true,
+      "number": 13,
+      "name": "13.Opening and Reading file",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 14 14.Any Message Sent",
+      "ok": true,
+      "number": 14,
+      "name": "14.Any Message Sent",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 15 15.Any files are transfered",
+      "ok": true,
+      "number": 15,
+      "name": "15.Any files are transfered",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 16 16.Start or complete in LVQ",
+      "ok": true,
+      "number": 16,
+      "name": "16.Start or complete in LVQ",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 17 17.Publishing error",
+      "ok": true,
+      "number": 17,
+      "name": "17.Publishing error",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 18 18.Error Keyword",
+      "ok": true,
+      "number": 18,
+      "name": "18.Error Keyword",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 19 19.Inside Static Block",
+      "ok": true,
+      "number": 19,
+      "name": "19.Inside Static Block",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 20 # skip (Only for Dynamic files [Type 2]) 20.Inside Dynamic block",
+      "ok": true,
+      "number": 20,
+      "name": "# skip (Only for Dynamic files [Type 2]) 20.Inside Dynamic block",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 21 # skip (Only for Directories [Type 3 & 4]) 21.Inside Directory block",
+      "ok": true,
+      "number": 21,
+      "name": "# skip (Only for Directories [Type 3 & 4]) 21.Inside Directory block",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 22 # skip (Only for Directories [Type 3 & 4]) 22.Directory name not found",
+      "ok": true,
+      "number": 22,
+      "name": "# skip (Only for Directories [Type 3 & 4]) 22.Directory name not found",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 23 23.Clearing LVQ State",
+      "ok": true,
+      "number": 23,
+      "name": "23.Clearing LVQ State",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 24 24.Queue is full",
+      "ok": true,
+      "number": 24,
+      "name": "24.Queue is full",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 25 25.Source Path Error",
+      "ok": true,
+      "number": 25,
+      "name": "25.Source Path Error",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 26 # skip (Only for Dynamic Files) 26.EOD Test",
+      "ok": true,
+      "number": 26,
+      "name": "# skip (Only for Dynamic Files) 26.EOD Test",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 27 # skip (Only for Dynamic Files) 27.Cleaning Memory",
+      "ok": true,
+      "number": 27,
+      "name": "# skip (Only for Dynamic Files) 27.Cleaning Memory",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 28 28.UID or GID errors",
+      "ok": true,
+      "number": 28,
+      "name": "28.UID or GID errors",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 29 29.Send warning on missing file",
+      "ok": true,
+      "number": 29,
+      "name": "29.Send warning on missing file",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 30 30.Application ID Generation",
+      "ok": true,
+      "number": 30,
+      "name": "30.Application ID Generation",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 31 31.Reading Config Assembler",
+      "ok": true,
+      "number": 31,
+      "name": "31.Reading Config Assembler",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 32 32.Solace client Connection",
+      "ok": true,
+      "number": 32,
+      "name": "32.Solace client Connection",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 33 33.Queue Subscriber",
+      "ok": true,
+      "number": 33,
+      "name": "33.Queue Subscriber",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 34 34.Trust store error Assembler",
+      "ok": true,
+      "number": 34,
+      "name": "34.Trust store error Assembler",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 35 35.Checking process username",
+      "ok": true,
+      "number": 35,
+      "name": "35.Checking process username",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 36 36.Any acknowledgment of message",
+      "ok": true,
+      "number": 36,
+      "name": "36.Any acknowledgment of message",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 37 37.Auto Creation of Directory",
+      "ok": true,
+      "number": 37,
+      "name": "37.Auto Creation of Directory",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 38 38.Opening File to Write",
+      "ok": true,
+      "number": 38,
+      "name": "38.Opening File to Write",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 39 39.Chown without error",
+      "ok": true,
+      "number": 39,
+      "name": "39.Chown without error",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 40 40.Replicated file same size",
+      "ok": true,
+      "number": 40,
+      "name": "40.Replicated file same size",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 41 41.Number of messages",
+      "ok": true,
+      "number": 41,
+      "name": "41.Number of messages",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 42 42.Checking Sudo access",
+      "ok": true,
+      "number": 42,
+      "name": "42.Checking Sudo access",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 43 43.Total file count and file size",
+      "ok": true,
+      "number": 43,
+      "name": "43.Total file count and file size",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 44 44.Number of messages chunks",
+      "ok": true,
+      "number": 44,
+      "name": "44.Number of messages chunks",
+      "test": 0
+    },
+    {
+      "type": "assert",
+      "raw": "ok 45 45.Assembler out of disk space",
+      "ok": true,
+      "number": 45,
+      "name": "45.Assembler out of disk space",
+      "test": 0
+    }
+  ],
+  "fail": [],
+  "errors": []
+}
