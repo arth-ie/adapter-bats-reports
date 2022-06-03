@@ -1,4 +1,4 @@
-<p>Test Reports</p>
+<p>Updated on:: {{dateReport.date}}</p>
 <table class="switch-table">
   <tr>
     <th><button (click)="switchReport(1)" class="typebtn" [class.activebtn]="testFlag==1">File Type 1</button></th>
@@ -29,7 +29,7 @@
 <h3 *ngIf="testData">Passed tests :: {{testData.stats.passes}}</h3>
 <h3 *ngIf="testData">Failed tests :: {{testData.stats.failures}}</h3> -->
 
-<table class="test-table">
+<table class="test-table" *ngIf="testData">
   <tr>
     <th class="number-head">No.</th>
     <th class="name-head">Name</th>
