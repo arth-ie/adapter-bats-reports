@@ -1,4 +1,5 @@
 <p>Updated on:: {{dateReport.date}}</p>
+<button (click)="generateReportPDF()" class="generate-btn">Generate PDF Report 	&rarr;</button>
 <table class="switch-table">
   <tr>
     <th><button (click)="switchReport(1)" class="typebtn" [class.activebtn]="testFlag==1">File Type 1</button></th>
@@ -17,7 +18,7 @@
 </table>
 <table class="summary-table">
   <tr>
-    <th colspan="3"><h3>Report of File Type {{testFlag}}</h3></th>
+    <th colspan="3"><h3>Report Index {{testFlag}}</h3></th>
   </tr>
   <tr>
     <th *ngIf="testData" class="success-t">Total tests : {{testData.stats.asserts}}</th>
